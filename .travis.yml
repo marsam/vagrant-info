@@ -3,3 +3,11 @@ script: rake build
 rvm:
   - 2.1
   - 2.0.0
+deploy:
+  provider: rubygems
+  api_key:
+    secure: eT/LaxKL3Pz1sJMERnEQMPetQKZI0CZ17xzS7NUxvRwZuGfiot4V23YHxmts5bfbQB/ZhkbxWwgI51fsUu7oyHBYLxen6RIGVPuSaQF2CnIVivYB7/JG0iRb59cIfE0nsU4OcDnvb5mAJt5RNmhFUbrs4eAM08a2Oxkg0UGzsR8=
+  gem: vagrant-info
+  on:
+    tags: true
+    repo: marsam/vagrant-info
