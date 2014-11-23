@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = VagrantPlugins::Info::VERSION
   spec.authors       = ["Mario Rodas"]
   spec.email         = ["marsam@users.noreply.github.com"]
-  spec.summary       = %q{Chispas}
-  spec.description   = %q{Chispas}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/marsam/vagrant-info"
+  spec.summary       = %q{Get information from vagrant machines.}
+  spec.description   = %q{Vagrant plugin to get information from vagrant machines.}
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
