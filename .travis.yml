@@ -1,0 +1,5 @@
+language: ruby
+script: rake build
+rvm:
+  - 2.1
+  - 2.0.0
